@@ -1,0 +1,64 @@
+/* Header.css */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    position: relative; /* Allows for absolute positioning of menu icon */
+  }
+  
+  .menu-icon {
+    position: absolute;
+    left: 20px; /* Aligns the icon to the far left */
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .menu-icon .bar {
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+    border-radius: 1px;
+  }
+  
+  .header-content {
+    text-align: center;
+    flex-grow: 1; /* Allows the h1 to be centered */
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  
+  .header-nav {
+    display: flex;
+    justify-content: right;
+    margin-top: 8px; /* Adjust this value for spacing */
+  }
+  
+  .header-nav a {
+    font-weight: bolder;
+    margin-right: 50px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header-nav a:hover {
+    text-decoration: underline;
+  }
+  .welcome-message {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  

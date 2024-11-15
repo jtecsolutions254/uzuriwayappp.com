@@ -1,0 +1,95 @@
+.home-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .home-page h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .home-page p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .mission-vision {
+    margin-top: 30px;
+  }
+  
+  .mission-vision h2 {
+    color: #007BFF;
+    font-size: 1.8rem;
+    margin-top: 20px;
+  }
+  
+  .loan-overview {
+    margin-top: 30px;
+  }
+  
+  .loan-overview h2 {
+    font-size: 1.8rem;
+    color: #007BFF;
+  }
+  
+  .loan-types {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .loan-types li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .loan-types h3 {
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
+  .loan-types p {
+    margin: 5px 0;
+  }
+  
+  .loan-types a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .loan-types a:hover {
+    text-decoration: underline;
+  }
+  
+  .cta {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .cta h2 {
+    font-size: 1.8rem;
+    color: #007BFF;
+  }
+  
+  .join-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .join-btn:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,91 @@
+.boost-loan {
+    padding: 20px;
+  }
+  
+  .boost-loan h2 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .boost-loan ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .boost-loan ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .boost-loan-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .boost-loan-table th,
+  .boost-loan-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .boost-loan-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .loan-application-form {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .loan-application-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .loan-application-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .loan-application-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
